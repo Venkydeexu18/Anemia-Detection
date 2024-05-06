@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Anemia Test</title>
+</head>
+<body>
+    <a href="/" class="home-link"><i class="fas fa-home"></i> Home</a>
+    <div class="container">
+        <h1>Welcome to Anemia Test</h1>
+        <a href="{{ url_for('signup') }}" class="btn">Take Anemia Test</a>
+    </div>
+</body>
+</html>
